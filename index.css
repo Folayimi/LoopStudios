@@ -1,0 +1,715 @@
+
+@media screen and (min-width:381px){
+    *{
+        margin:0px;
+        padding:0px;
+        box-sizing: border-box;
+    }
+    
+    html{
+        scroll-behavior: smooth;
+    }
+    
+    body{
+        background:white;
+    }
+    
+    .head_container{
+        position:relative;
+        width:100%;
+        height:80vh;
+        object-fit:contain;
+    }
+    
+    .head_container img{
+        width:100%;
+        height:75vh;
+    }
+    
+    .head_container > .head{
+        position:absolute;
+        top:0px;
+        width:100%;
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+        padding:5% 10% 0% 12% ;
+    }
+    
+    .brandName{
+        /* font-size:27px; */
+        font-weight: bolder;
+        font-family:"Calibri light";
+        color:white;
+    }
+    
+    .menu{
+        font-weight:"lighter";
+        font-family:"Calibri light";
+        color:white;
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+        width:45%;
+    }
+    .display{
+        position:absolute;
+        top:34%;
+        width:45%;
+        height:33vh;
+        border:2px solid white;
+        margin-left:12%;
+        font-size:22px;
+        font-weight: lighter;
+        font-family:"Arial";
+        letter-spacing: 5px;
+        padding:1vh 7% 1vh 2%;
+        color:white;
+    }
+    
+    .vrImg{
+        width:55%;
+        margin-top:12%;
+        margin-left:8%;
+    }
+    
+    .VR{
+        position: relative;
+        width:40%;
+        height: 40vh;
+        text-align:start;
+        display:grid;
+        grid-template-columns: repeat(1,1fr);
+        margin-left:51%;
+        margin-top:-25%;
+        padding-left:5%;
+        padding-top:6%;
+        background:white;
+        z-index:999;
+    }
+    
+    .VR h1{
+        font-size:45px;
+        font-family:"Calibri Light";
+        font-weight: lighter;
+        letter-spacing: 3px;
+    }
+    
+    .VR h4{
+        font-family:"Calibri Light";
+        font-weight: lighter;
+        color:rgb(90, 87, 87);
+    }
+    
+    .creation{
+        margin-top:15%;
+        padding-right:10%;
+        padding-left:8%;
+        font-size:25px;
+        font-family:"Calibri Light";
+        text-align: center;
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .seeAll{
+        border:2px solid black;
+        width:17%;
+        height:5vh;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        font-family:"Calibri";
+        font-weight:bold;
+        letter-spacing:4px;
+    }
+    .seeAll:hover{
+        background:black;
+        color:white;
+        transition: 1s;
+    }
+    .loop2{
+        margin-top:5%;
+        padding-right:8%;
+        padding-left:8%;
+        width:100%;
+        height:108vh;
+        display:grid;
+        grid-template-columns: repeat(4,1fr);
+    }
+    .loopImg{
+        width:90%;
+        height:50vh;
+        margin-bottom:5%;
+    }
+    .loopImg img{
+        width:100%;
+        height:50vh;
+    }
+    
+    .loopImg >.hoverB{
+        position: relative;
+        top:-102%;
+        width:100%;
+        height:52vh;
+        color:white;
+    }
+    
+    .loopImg >.hoverB:hover{
+        background:rgba(255,255,255,0.5);
+        color:black;
+        transition:.9s;
+    }
+    
+    .loopImg > .hoverB >.text{
+        position: relative;
+        top:75%;
+        width:70%;
+        font-family:"Calibri Light";
+        font-weight:lighter;
+        margin-left:12%;
+        letter-spacing:3px;
+    }
+    .footer{
+        margin-top:20%;
+        margin-bottom: 0%;
+        width:100%;
+        height:20vh;
+        background:black;
+        color:white;
+    
+    }
+    
+    .footerName{
+        width:100%;
+        /* font-size:30px; */
+        font-weight: bolder;
+        font-family:"Calibri light";
+        color:white;
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top:3%;
+        padding-left: 8%;
+        padding-right: 10%;
+    }
+    
+    .footerName > .icons{
+        width:15%;
+        margin-left:30%;
+        display:flex;
+        align-items: flex-end;
+        justify-content: space-between;
+    }
+    
+    .footer > .menu{
+        width:100%;
+        text-align:center;
+        /* font-size:16px; */
+        font-weight: lighter;
+        font-family:"Calibri light";
+        letter-spacing: 1px;
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top:2%;
+        padding-left: 8%;
+        padding-right: 10%;
+    }
+    
+    .reserved{
+        letter-spacing: 1px;
+        color:rgb(177, 174, 174);
+        font-size:16px;
+        font-weight: lighter;
+        font-family:"Calibri light";
+        padding-left:28%;
+    }
+    
+}
+
+@media (min-width:381px) and (max-width:812px){
+    *{
+        margin:0px;
+        padding:0px;
+        box-sizing: border-box;
+    }
+    
+    html{
+        scroll-behavior: smooth;
+    }
+    
+    body{
+        background:white;
+    }
+    
+    .head_container{
+        position:relative;
+        width:100%;
+        height:100vh;
+        object-fit:contain;
+    }
+    
+    .head_container img{
+        width:100%;
+        height:100vh;
+    }
+    
+    .head_container > .head{
+        position:absolute;
+        top:0px;
+        width:100%;
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+        padding:5% 10% 0% 12% ;
+    }
+    
+    .brandName{
+        font-weight: bolder;
+        font-family:"Calibri light";
+        color:white;
+    }
+    
+    .menu{
+        color:white;
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+        width:50%;
+    }
+    .display{
+        position:absolute;
+        top:34%;
+        width:45%;
+        height:50vh;
+        border:2px solid white;
+        margin-left:12%;
+        font-size:20px;
+        font-weight: lighter;
+        font-family:"Arial";
+        letter-spacing: 5px;
+        padding:1vh 7% 1vh 2%;
+        color:white;
+    }
+    
+    .vrImg{
+        width:50%;
+        margin-top:12%;
+        margin-left:8%;
+    }
+    
+    .VR{
+        position: relative;
+        width:40%;
+        height: 60vh;
+        text-align:start;
+        display:grid;
+        grid-template-columns: repeat(1,1fr);
+        margin-left:48%;
+        margin-top:-25%;
+        padding-left:5%;
+        padding-top:4%;
+        background:white;
+        z-index:999;
+    }
+    
+    .VR h1{
+        font-size:35px;
+        font-family:"Calibri Light";
+        font-weight: lighter;
+        /* letter-spacing: 3px; */
+    }
+    
+    .VR h4{
+        font-size:14px;
+        font-family:"Calibri Light";
+        font-weight: lighter;
+        color:rgb(90, 87, 87);
+    }
+    
+    .creation{
+        margin-top:15%;
+        padding-right:10%;
+        padding-left:8%;
+        font-size:20px;
+        font-family:"Calibri Light";
+        text-align: center;
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .seeAll{
+        border:2px solid black;
+        width:17%;
+        height:10vh;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        font-family:"Calibri";
+        font-weight:bold;
+        letter-spacing:4px;
+    }
+    .seeAll:hover{
+        background:black;
+        color:white;
+        transition: 1s;
+    }
+    .loop2{
+        margin-top:5%;
+        padding-right:8%;
+        padding-left:8%;
+        width:100%;
+        display:grid;
+        grid-template-columns: repeat(4,1fr);
+    }
+    .loopImg{
+        width:90%;
+        height:65vh;
+        margin-bottom:5%;
+    }
+    .loopImg img{
+        width:100%;
+        height:65vh;
+    }
+    
+    .loopImg >.hoverB{
+        position: relative;
+        top:-102%;
+        width:100%;
+        height:65vh;
+        color:white;
+    }
+    
+    .loopImg >.hoverB:hover{
+        background:rgba(255,255,255,0.5);
+        color:black;
+        transition:.9s;
+    }
+    
+    .loopImg > .hoverB >.text{
+        position: relative;
+        top:75%;
+        width:70%;
+        font-family:"Calibri Light";
+        font-weight:lighter;
+        margin-left:12%;
+        letter-spacing:3px;
+    }
+    .footer{
+        margin-top:20%;
+        margin-bottom: 0%;
+        width:100%;
+        height:35vh;
+        background:black;
+        color:white;
+    
+    }
+    
+    .footerName{
+        width:100%;
+        font-weight: bolder;
+        font-family:"Calibri light";
+        color:white;
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top:3%;
+        padding-left: 8%;
+        padding-right: 10%;
+    }
+    
+    .footerName > .icons{
+        width:20%;
+        margin-left:25%;
+        display:flex;
+        align-items: flex-end;
+        justify-content: space-between;
+    }
+    
+    .footer > .menu{
+        width:100%;
+        text-align:center;
+        font-size:15px;
+        font-weight: lighter;
+        font-family:"Calibri light";
+        /* letter-spacing: 1px; */
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top:2%;
+        padding-left: 8%;
+        padding-right: 10%;
+    }
+    
+    .reserved{
+        color:rgb(177, 174, 174);
+        font-size:15px;
+        font-weight: lighter;
+        font-family:"Calibri light";
+        padding-left:15%;
+    }
+    
+}
+
+
+@media screen and (max-width:380px){
+    *{
+        margin:0px;
+        padding:0px;
+        box-sizing: border-box;
+    }
+    
+    html{
+        scroll-behavior: smooth;
+    }
+
+    body{
+        background:white;
+    }
+
+    .head_container{
+        position:relative;
+        width:100%;
+        height:80vh;
+        object-fit:contain;
+    }
+
+    .head_container img{
+        width:100%;
+        height:80vh;
+    }
+
+    .head_container > .head{
+        position:absolute;
+        top:0px;
+        width:100%;
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+        padding:9% 7% 9% 4% ;
+    }
+
+    .brandName{
+        font-weight: bolder;
+        font-family:"Calibri light";
+        color:white;
+    }
+
+    .head > .hambuger{
+        width:8%;
+    }
+
+    .hambuger > .line{
+        background: white;
+        width:100%;
+        height:3px;
+        margin:5px;
+    }
+
+    .Lmenu{
+        position:fixed;
+        top:0px;
+        width:100%;
+        height:100vh;
+        background:black;
+        transition:1.0s;
+        z-index:999;
+    }
+
+    .Lmenu > .head{
+        position:absolute;
+        top:0px;
+        width:100%;
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+        padding:9% 7% 9% 4% ;
+    }
+
+    .Lmenu > .head > .brandName{
+        font-weight: bolder;
+        font-family:"Calibri light";
+        color:white;
+    }
+
+    .Lmenu > .head img{
+        width:7%;
+        height:8%;
+    }
+
+    .Lmenu > .Lbody{
+        width:100%;
+        text-align:start;
+        height:40vh;
+        display:grid;
+        grid-template-columns: repeat(1,1fr);
+        font-weight: lighter;
+        font-family:"Calibri";
+        letter-spacing: 1px;
+        margin-top:50%;
+        margin-left:5%;
+        color:white;
+    }
+
+    .display{
+        position:absolute;
+        top:34%;
+        width:90%;
+        height:27vh;
+        border:2px solid white;
+        margin-left:5%;
+        font-size:20px;
+        font-weight: lighter;
+        font-family:"Arial";
+        padding:2vh 7% 2vh 7%;
+        color:white;
+    }
+
+    .vrImg{
+        width:90%;
+        margin-top:25%;
+        margin-left:5%;
+    }
+
+    .VR{
+        width:90%;
+        height: 35vh;
+        display:grid;
+        grid-template-columns: repeat(1,1fr);
+        margin-left:5%;
+        margin-top:10%;
+    }
+
+    .VR h1{
+        font-size:40px;
+        font-family:"Calibri Light";
+        font-weight: lighter;
+        text-align: center;
+    }
+
+    .VR h3{
+        font-family:"Calibri Light";
+        font-weight: lighter;
+        text-align: center;
+        color:rgb(90, 87, 87);
+    }
+
+    .creation{
+        margin-top:20%;
+        font-size:20px;
+        font-family:"Calibri Light";
+        text-align: center;
+    }
+
+    .loop1{
+        margin-top:10%;
+        width:100%;
+    }
+    .loopImg{
+        width:90%;
+        height:17vh;
+        margin-left:5%;
+        margin-bottom:5%;
+    }
+    .loopImg img{
+        width:100%;
+        height:17vh;
+    }
+
+    .loopImg >.hoverB{
+        position: relative;
+        top:-105%;
+        width:100%;
+        height:18vh;
+        color:white;
+    }
+
+    .loopImg >.hoverB:hover{
+        background:rgba(255,255,255,0.5);
+        color:black;
+        transition:.9s;
+    }
+
+    .loopImg > .hoverB >.text{
+        position: relative;
+        top:60%;
+        width:60%;
+        font-family:"Calibri Light";
+        font-weight:lighter;
+        margin-left:5%;
+    }
+    .seeAll{
+        margin-left:30%;
+        margin-top:10%;
+        border:2px solid black;
+        width:40%;
+        height:5vh;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        font-family:"Calibri";
+        font-weight:bolder;
+        letter-spacing:3px;
+    }
+    .seeAll:hover{
+        background:black;
+        color:white;
+        transition:1s;
+    }
+    .footer{
+        margin-bottom:0px;
+        margin-top:20%;
+        width:100%;
+        height:60vh;
+        background:black;
+        color:white;
+        
+    }
+
+    .footerName{
+        width:100%;
+        font-weight: bolder;
+        font-family:"Calibri light";
+        color:white;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        padding-top:10%;
+    }
+
+    .footer > .menu{
+        width:100%;
+        text-align:center;
+        height:25vh;
+        display:grid;
+        grid-template-columns: repeat(1,1fr);
+        font-weight: lighter;
+        font-family:"Calibri light";
+        letter-spacing: 1px;
+        margin-top:10%;
+    }
+
+    .icons{
+        width:40%;
+        margin-left:30%;
+        margin-top:8%;
+        display:flex;
+        align-items: flex-end;
+        justify-content: space-between;
+    }
+
+    .reserved{
+        width:100%;
+        text-align: center;
+        padding-top:10%;
+        letter-spacing: 1px;
+        color:rgb(177, 174, 174);
+        font-size:16px;
+        font-weight: lighter;
+        font-family:"Calibri light";
+    }
+
+}
